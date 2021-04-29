@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.Clean.Arch", "Demo.Clean.Arch\Demo.Clean.Arch.csproj", "{B34CE3AA-60E6-487F-BC53-10BC9B2AD2BF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.Clean.Arch.Repository", "Demo.Clean.Arch.Repository\Demo.Clean.Arch.Repository.csproj", "{12111C46-4B8B-4A20-B872-5E9832CC6AF5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Extra", "Extra", "{92BA8282-A484-4A92-8155-944FC3A317DC}"
+	ProjectSection(SolutionItems) = preProject
+		AddServerPostgre1.jpg = AddServerPostgre1.jpg
+		AddServerPostgre2.jpg = AddServerPostgre2.jpg
+		docker-compose.yml = docker-compose.yml
+		Readme.txt = Readme.txt
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.Clean.Arch.Model", "Demo.Clean.Arch.Model\Demo.Clean.Arch.Model.csproj", "{263FB4F0-6892-419E-93F4-50AF68848AF5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.Clean.Arch.Repository.Test", "Demo.Clean.Arch.Repository.Test\Demo.Clean.Arch.Repository.Test.csproj", "{1F1A1DF3-B7B6-4C6D-89DC-E9AD327F3C8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Clean.Arch.Api", "Demo.Clean.Arch.Api\Demo.Clean.Arch.Api.csproj", "{E9E009E9-DEA9-4462-80F0-120D3348D163}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B34CE3AA-60E6-487F-BC53-10BC9B2AD2BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B34CE3AA-60E6-487F-BC53-10BC9B2AD2BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B34CE3AA-60E6-487F-BC53-10BC9B2AD2BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B34CE3AA-60E6-487F-BC53-10BC9B2AD2BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12111C46-4B8B-4A20-B872-5E9832CC6AF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12111C46-4B8B-4A20-B872-5E9832CC6AF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12111C46-4B8B-4A20-B872-5E9832CC6AF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12111C46-4B8B-4A20-B872-5E9832CC6AF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{263FB4F0-6892-419E-93F4-50AF68848AF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{263FB4F0-6892-419E-93F4-50AF68848AF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{263FB4F0-6892-419E-93F4-50AF68848AF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{263FB4F0-6892-419E-93F4-50AF68848AF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F1A1DF3-B7B6-4C6D-89DC-E9AD327F3C8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F1A1DF3-B7B6-4C6D-89DC-E9AD327F3C8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F1A1DF3-B7B6-4C6D-89DC-E9AD327F3C8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F1A1DF3-B7B6-4C6D-89DC-E9AD327F3C8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9E009E9-DEA9-4462-80F0-120D3348D163}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9E009E9-DEA9-4462-80F0-120D3348D163}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9E009E9-DEA9-4462-80F0-120D3348D163}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9E009E9-DEA9-4462-80F0-120D3348D163}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51D1CDBD-93B9-4C1F-AEB9-B4CA788792E3}
+	EndGlobalSection
+EndGlobal
